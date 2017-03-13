@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body>
+  <body ng-app="likeular">
     <div class="container">
-      <p>Welcome to your life.</p>
+    <div ng-controller="LikeController">
+
+      <button ng-click="LikeController">Like</button>
+    </div>
+      <button>Unlike</button>
     </div>
     <script src="js/bundle.js"></script>
   </body>
