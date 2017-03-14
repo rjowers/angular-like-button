@@ -11,9 +11,9 @@
     <div class="container">
     <div ng-controller="LikeController">
 
-      <button ng-click="LikeController">Like</button>
+      <button ng-click="Like()">{{count}}{{Likes}}</button>
+      <button ng-click="Unlike()">Unlike</button>
     </div>
-      <button>Unlike</button>
     </div>
     <script src="js/bundle.js"></script>
   </body>
